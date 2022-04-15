@@ -1,0 +1,55 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.calc-container {
+    font-family: 'Roboto', sans-serif;
+  background-color : black;
+  width: 400px;
+  height: 500px;
+  margin :5%  auto ;
+  border-radius : 1em 1em;
+  display :flex;
+  flex-direction : column
+}
+.screen {
+  margin :5rem 2rem 1rem 2rem ;
+  padding : 2rem;
+  height : 5rem;
+ background-color : white;
+ justify-content : center;
+}
+.btns {
+  height : 5rem;
+  padding : 10px 2rem;
+ background-color : black;
+ height: 60%;
+ display: flex;
+ flex-wrap : wrap;
+ justify-content :center;
+
+}
+.item { 
+  font-size : 3rem;
+  height : 60px;
+  width : 60px;
+  margin : 5px;
+  background-color: white;
+  border-box : 2px solid black;
+  border-radius : 100%;
+  text-align : center;
+  font-weight: bold;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
